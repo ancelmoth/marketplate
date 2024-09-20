@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Marketplace</h1>
+        <nav>
+            <input type="text" id="search-bar" placeholder="Buscar produtos...">
+        </nav>
+    </header>
+
+    <section id="categorias">
+        <button data-categoria="todos">Todos</button>
+        <button data-categoria="eletronicos">Eletrônicos</button>
+        <button data-categoria="beleza">Beleza</button>
+        <button data-categoria="saude">Saúde</button>
+    </section>
+
+    <section id="produtos">
+        <h2>Lista de Produtos</h2>
+        <div id="lista-produtos">
+            <!-- Produtos serão inseridos aqui via JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <p>Contato: contato@meumarketplace.com</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
